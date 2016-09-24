@@ -27,8 +27,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
-
+I had various debugging errors that is because my SettingsControllers was inheriting from UITableViewController instead of UIViewController. 
 ## License
 
     Copyright [2016] [Emerson Auguste]

@@ -21,6 +21,7 @@ class ViewController: UIViewController {
         //Load from settings
         let defaults = UserDefaults.standard
         tipControl.selectedSegmentIndex = defaults.integer(forKey: "tip_default_percentage")
+        billField.becomeFirstResponder()
     }
     
     override func didReceiveMemoryWarning() {

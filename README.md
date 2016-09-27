@@ -30,7 +30,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 I had various debugging errors that is because my SettingsControllers was inheriting from UITableViewController instead of UIViewController. 
 ## License
 
-    Copyright [2016] [Emerson Auguste]
+    Copyright 2016 Emerson Auguste
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.

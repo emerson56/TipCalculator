@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  TipViewController.swift
 //  TipCalculator
 //
 //  Created by Emerson on 9/23/16.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class TipViewController: UIViewController {
     
     
     @IBOutlet weak var tipControl: UISegmentedControl!
@@ -28,6 +28,11 @@ class ViewController: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    /*override func viewWillAppear(animated: Bool)
+    {
+
+    }*/
     
     @IBAction func onTap(_ sender: AnyObject) {
         //view.endEditing(true)

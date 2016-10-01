@@ -14,7 +14,7 @@ class SettingsViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        print("view did load")
+        print("settings view did load")
     
         let defaults = UserDefaults.standard
         let index = defaults.integer(forKey: "tip_default_percentage")

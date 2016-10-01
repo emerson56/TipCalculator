@@ -3,9 +3,9 @@
 
 **TipCalculator** is a tip calculator application for iOS.
 
-Submitted by: **Emerson Auguste**
+Submitted by: **Emerson A.**
 
-Time spent: **8** hours spent in total
+Time spent: **13** hours spent in total
 
 ## User Stories
 
@@ -31,9 +31,11 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 I had various debugging errors that is because my SettingsControllers was inheriting from UITableViewController instead of UIViewController. 
+Also, Swift 3.0's changes added some challenge. Most of the documentation and help reference Swift 2.0.
+I wanted to do the optional challenge about remembering the bill amount across app restarts (if <10 mins) but I couldn't get it to work correctly. So, I commented some of the code on that. 
 ## License
 
-    Copyright [2016] [Emerson Auguste]
+    Copyright 2016 Emerson Auguste
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
